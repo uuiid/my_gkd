@@ -5,7 +5,7 @@ export default defineGkdApp({
   name: '起点读书',
   groups: [
     {
-      name: '福利广告结束',
+      name: '功能类-福利广告结束',
       key: 1,
       desc: '[ChangeMe]本规则由GKD网页端审查工具生成',
       rules: [
@@ -19,7 +19,7 @@ export default defineGkdApp({
     },
     {
       key: 2,
-      name: '福利广告15秒',
+      name: '功能类-福利广告15秒',
       desc: '[ChangeMe]本规则由GKD网页端审查工具生成',
       rules: [
         {
