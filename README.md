@@ -136,7 +136,7 @@ https://registry.npmmirror.com/gkd-subscription-xxxx/latest/files/dist/gkd.json5
 如果你的包名是 `@your_npm_name/subscription` 这种类型, 加速链接是
 
 ```txt
-https://registry.npmmirror.com/@your_npm_name/subscription/latest/files/dist/gkd.json5
+https://registry.npmmirror.com/@yuzhang134562/gkd-subscription/latest/files/dist/gkd.json5
 ```
 
 由于 npmmirror 被恶意刷流量后已经改为白名单模式, 不在白名单内的包, 上面的链接无法正常加速访问
