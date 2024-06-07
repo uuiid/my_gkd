@@ -18,7 +18,7 @@ export default defineGkdApp({
       ],
     },
     {
-      key: 1,
+      key: 2,
       name: '福利广告15秒',
       desc: '[ChangeMe]本规则由GKD网页端审查工具生成',
       rules: [
