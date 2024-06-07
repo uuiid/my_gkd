@@ -1,6 +1,6 @@
 {
   "name": "@yuzhang134562/gkd-subscription",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "type": "module",
   "scripts": {
     "postinstall": "simple-git-hooks",
