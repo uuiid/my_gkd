@@ -12,7 +12,7 @@ export default defineGkdApp({
         {
           quickFind: true,
           matches:
-            'FrameLayout[id="android:id/content"] >3 @android.widget.ImageView',
+            'FrameLayout[id="android:id/content"] >3 @android.widget.ImageView[id =null && text=null && top < 150 && left < 80]',
           activityIds: 'com.qq.e.tg.RewardvideoPortraitADActivity',
         },
       ],
