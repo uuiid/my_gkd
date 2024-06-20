@@ -23,6 +23,9 @@ importers:
       '@gkd-kit/define':
         specifier: 0.0.1
         version: 0.0.1(@gkd-kit/api@0.0.5)
+      '@gkd-kit/selector':
+        specifier: ^0.0.25
+        version: 0.0.25
       '@gkd-kit/tools':
         specifier: 0.2.0
         version: 0.2.0(@gkd-kit/api@0.0.5)(json5@2.2.3)
