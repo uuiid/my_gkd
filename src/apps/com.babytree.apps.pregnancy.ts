@@ -1,9 +1,9 @@
-import { defineAppConfig } from '../types';
+import { defineGkdApp } from '@gkd-kit/define';
 
-export default defineAppConfig({
+export default defineGkdApp({
   id: 'com.babytree.apps.pregnancy',
   name: '宝宝树孕育',
-  deprecatedKeys: [1],
+
   groups: [
     {
       key: 2,

@@ -1,9 +1,9 @@
-import { defineAppConfig } from '../types';
+import { defineGkdApp } from '@gkd-kit/define';
 
-export default defineAppConfig({
+export default defineGkdApp({
   id: 'com.apkpure.aegon',
   name: 'APKPure',
-  deprecatedKeys: [0],
+
   groups: [
     {
       key: 1,

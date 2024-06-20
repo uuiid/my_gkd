@@ -1,9 +1,9 @@
-import { defineAppConfig } from '../types';
+import { defineGkdApp } from '@gkd-kit/define';
 
-export default defineAppConfig({
+export default defineGkdApp({
   id: 'com.boohee.one',
   name: '薄荷健康',
-  deprecatedKeys: [0],
+
   groups: [
     {
       key: 1,

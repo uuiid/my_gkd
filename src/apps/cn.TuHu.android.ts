@@ -1,9 +1,9 @@
-import { defineAppConfig } from '../types';
+import { defineGkdApp } from '@gkd-kit/define';
 
-export default defineAppConfig({
+export default defineGkdApp({
   id: 'cn.TuHu.android',
   name: '途虎养车',
-  deprecatedKeys: [0],
+
   groups: [
     {
       key: 1,
