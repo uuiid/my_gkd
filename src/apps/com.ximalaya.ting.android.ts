@@ -140,7 +140,7 @@ export default defineAppConfig({
     },
     {
       key: 7,
-      name: '关闭青少年模式弹窗',
+      name: '青少年模式-弹窗',
       quickFind: true,
       activityIds: 'com.ximalaya.ting.android.host.activity.MainActivity',
       snapshotUrls: 'https://i.gkd.li/import/12506209',

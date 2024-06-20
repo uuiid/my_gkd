@@ -7,7 +7,7 @@ export default defineAppConfig({
     {
       enable: false,
       key: 1,
-      name: '公告弹窗',
+      name: '局部广告-公告弹窗',
       actionMaximum: 1,
       resetMatch: 'app',
       quickFind: true,

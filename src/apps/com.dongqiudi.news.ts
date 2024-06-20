@@ -34,7 +34,7 @@ export default defineAppConfig({
     },
     {
       key: 1,
-      name: '青少年模式弹窗',
+      name: '青少年模式-弹窗',
       activityIds: 'com.dongqiudi.news.MainActivity',
       quickFind: true,
       matchTime: 10000,

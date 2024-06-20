@@ -6,7 +6,7 @@ export default defineAppConfig({
   groups: [
     {
       key: 1,
-      name: '关闭青少年模式弹窗',
+      name: '青少年模式-弹窗',
       activityIds: 'com.kuaikan.main.MainActivity',
       rules: '[text*="青少年模式"] +2 [id="com.kuaikan.comic:id/cancel"]',
       snapshotUrls: 'https://i.gkd.li/import/12565678',

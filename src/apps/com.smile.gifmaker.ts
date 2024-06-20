@@ -6,7 +6,7 @@ export default defineAppConfig({
   groups: [
     {
       key: 0,
-      name: '青少年模式弹窗',
+      name: '青少年模式-弹窗',
       activityIds: 'com.yxcorp.gifshow.HomeActivity',
       rules: [
         {

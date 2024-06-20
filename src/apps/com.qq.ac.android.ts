@@ -6,7 +6,7 @@ export default defineAppConfig({
   groups: [
     {
       key: 1,
-      name: '青少年模式弹窗',
+      name: '青少年模式-弹窗',
       activityIds: ['com.qq.ac.android.main.MainActivity'],
       actionMaximum: 1,
       resetMatch: 'app',
