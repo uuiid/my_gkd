@@ -54,7 +54,7 @@ export default defineAppConfig({
         },
         {
           key: 1,
-          name: '点击【继续安装】',
+          name: '点击【继续安装】2',
           activityIds: 'com.miui.packageInstaller.NewInstallerPrepareActivity',
           matches: '@[text="继续安装"] + [text="取消安装"]',
           snapshotUrls: 'https://i.gkd.li/import/12889120',
@@ -143,7 +143,7 @@ export default defineAppConfig({
         },
         {
           key: 1,
-          name: '点击【继续更新】',
+          name: '点击【继续更新】2',
           activityIds: 'com.miui.packageInstaller.NewInstallerPrepareActivity',
           matches: '@[text="继续更新"] + [text="取消更新"]',
           snapshotUrls: [

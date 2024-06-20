@@ -6,7 +6,7 @@ export default defineAppConfig({
   groups: [
     {
       key: 2,
-      name: '请求消息通知',
+      name: '通知提示-请求消息通知',
       matchTime: 10000,
       actionMaximum: 1,
       resetMatch: 'app',

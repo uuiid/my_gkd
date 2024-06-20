@@ -26,14 +26,14 @@ export default defineAppConfig({
         },
         {
           key: 1,
-          name: '点击【完成】',
+          name: '点击【完成】1',
           activityIds: 'com.oplus.appdetail.model.finish.InstallFinishActivity',
           matches: '[id="com.oplus.appdetail:id/launch_button"][text="完成"]',
           snapshotUrls: 'https://i.gkd.li/import/13038664',
         },
         {
           key: 2,
-          name: '点击【完成】',
+          name: '点击【完成】2',
           activityIds: 'com.oplus.appdetail.model.finish.InstallFinishActivity',
           matches: '[id="com.oplus.appdetail:id/done_button"][text="完成"]',
           snapshotUrls: 'https://i.gkd.li/import/13054849',

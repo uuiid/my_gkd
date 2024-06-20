@@ -27,7 +27,7 @@ export default defineAppConfig({
     },
     {
       key: 4,
-      name: '浮窗广告',
+      name: '局部广告-浮窗广告',
       desc: '会出现在更多页面、播放页面',
       quickFind: true,
       rules: [

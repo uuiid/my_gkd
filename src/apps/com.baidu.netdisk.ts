@@ -66,7 +66,7 @@ export default defineAppConfig({
     },
     {
       key: 6,
-      name: '更新弹窗',
+      name: '更新提示',
       quickFind: true,
       actionMaximum: 1,
       resetMatch: 'app',
@@ -89,7 +89,7 @@ export default defineAppConfig({
     {
       enable: false,
       key: 8,
-      name: '开启消息通知弹窗',
+      name: '通知提示-开启消息通知弹窗',
       desc: '自动点击关闭',
       quickFind: true,
       activityIds: 'com.baidu.netdisk.ui.MainActivity',

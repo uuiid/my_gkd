@@ -42,7 +42,7 @@ export default defineAppConfig({
         },
         {
           key: 2,
-          name: '信息流广告-评论区内容推荐', // 考虑位置是否移出
+          name: '局部广告-信息流广告-评论区内容推荐', // 考虑位置是否移出
           activityIds:
             'com.netease.cloudmusic.music.biz.comment.activity.CommentActivity',
           matches:
@@ -175,7 +175,7 @@ export default defineAppConfig({
     },
     {
       key: 6,
-      name: '更新弹窗',
+      name: '更新提示',
       quickFind: true,
 
       rules: [

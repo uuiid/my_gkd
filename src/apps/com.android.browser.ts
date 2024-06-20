@@ -18,7 +18,7 @@ export default defineAppConfig({
     },
     {
       key: 1,
-      name: '主页信息流广告',
+      name: '主页局部广告-信息流广告',
       quickFind: true,
       activityIds: [
         'com.android.browser.BrowserActivity',

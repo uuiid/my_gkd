@@ -6,7 +6,7 @@ export default defineAppConfig({
   groups: [
     {
       key: 1,
-      name: '信息流广告-主页',
+      name: '局部广告-信息流广告-主页',
       desc: '点击右上角关闭,点击我不喜欢',
       activityIds: 'com.twitter.app.main.MainActivity',
       actionCd: 3000, // https://github.com/gkd-kit/subscription/issues/832
@@ -38,7 +38,7 @@ export default defineAppConfig({
     },
     {
       key: 2,
-      name: '信息流广告-帖子详情页、搜索页',
+      name: '局部广告-信息流广告-帖子详情页、搜索页',
       desc: '点击右上角关闭,点击屏蔽用户,确认屏蔽.点击[我不喜欢]会返回主页,因此点击[屏蔽]',
       quickFind: true,
       activityIds: [
@@ -58,7 +58,7 @@ export default defineAppConfig({
           ],
         },
         {
-          name: '点击右上角关闭',
+          name: '点击右上角关闭2',
           key: 1,
           matches:
             '@[id="com.twitter.android:id/tweet_curation_action"] <2 * + [id="com.twitter.android:id/tweet_auto_playable_content_parent"] > [id="com.twitter.android:id/tweet_promoted_badge_bottom"][text$="推荐"]',
@@ -103,14 +103,14 @@ export default defineAppConfig({
     },
     {
       key: 3,
-      name: '信息流广告-用户资料页',
-      desc: '点击右上角关闭,点击我不喜欢',
+      name: '局部广告-信息流广告-用户资料页',
+      desc: '点击右上角关闭,点击我不喜欢2',
       quickFind: true,
       activityIds: ['com.twitter.app.profiles.ProfileActivity'],
       actionCd: 3000,
       rules: [
         {
-          name: '点击右上角关闭',
+          name: '点击右上角关闭3',
           key: 0,
           matches:
             '@[id="com.twitter.android:id/tweet_curation_action"] +n [id="com.twitter.android:id/tweet_promoted_badge_bottom"][text="推荐"]',
@@ -120,7 +120,7 @@ export default defineAppConfig({
           ],
         },
         {
-          name: '点击右上角关闭',
+          name: '点击右上角关闭4',
           key: 1,
           matches:
             '@[id="com.twitter.android:id/tweet_curation_action"] <2 * + [id="com.twitter.android:id/tweet_auto_playable_content_parent"] > [id="com.twitter.android:id/tweet_promoted_badge_bottom"][text$="推荐"]',

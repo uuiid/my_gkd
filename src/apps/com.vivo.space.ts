@@ -18,7 +18,7 @@ export default defineAppConfig({
     },
     {
       key: 4,
-      name: '消息通知弹窗',
+      name: '通知提示-消息通知弹窗',
       quickFind: true,
       matchTime: 10000,
       actionMaximum: 1,
