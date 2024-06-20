@@ -37,14 +37,14 @@ export default defineAppConfig({
           snapshotUrls: 'https://i.gkd.li/import/12706228',
         },
         {
-          name: '百青藤',
+          name: '百青藤-2',
           activityIds: 'com.baidu.mobads.sdk.api.MobRewardVideoActivity',
           matches:
             '@ImageView[id=null][clickable=true] + RelativeLayout + ImageView + ImageView',
           snapshotUrls: 'https://i.gkd.li/import/12706236',
         },
         {
-          name: '百青藤',
+          name: '百青藤-3',
           activityIds: 'com.baidu.mobads.sdk.api.MobRewardVideoActivity',
           matches:
             '@ImageView[id=null][clickable=true] + RelativeLayout > RelativeLayout > ImageView + ImageView',
