@@ -1,8 +1,8 @@
 import { defineGkdGlobalGroups } from '@gkd-kit/define';
 
-import apps from './rawApps';
-import { OPEN_AD_ORDER } from './utils';
-
+import { batchImportApps } from '@gkd-kit/tools';
+const OPEN_AD_ORDER = -10;
+const _app = await batchImportApps(`${import.meta.dirname}/apps`);
 const diabledAppIds = [
   'com.android.systemui', // 通知栏界面
   'com.android.settings', // 系统设置
@@ -22,7 +22,7 @@ const diabledAppIds = [
 
 // 如果应用规则已有开屏广告一类的规则, 则在全局规则禁用此应用
 diabledAppIds.push(
-  ...apps
+  ..._app
     .filter((a) =>
       a.groups.some((g) => g.name.startsWith('开屏广告') && g.enable !== false),
     )
