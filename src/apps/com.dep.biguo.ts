@@ -13,7 +13,7 @@ export default defineAppConfig({
     },
     {
       key: 2,
-      name: '首页广告弹窗',
+      name: '开屏广告-弹窗',
       activityIds: 'com.dep.biguo.dialog',
       rules:
         '[id="com.dep.biguo:id/imageView"] + [id="com.dep.biguo:id/closeView"]',

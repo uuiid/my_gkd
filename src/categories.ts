@@ -26,7 +26,7 @@ export default defineGkdCategories([
     name: '定位提示',
   },
   {
-    key: -1,
+    key: 10,
     name: '权限提示',
   },
   {

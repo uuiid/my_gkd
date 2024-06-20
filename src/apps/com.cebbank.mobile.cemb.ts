@@ -18,7 +18,7 @@ export default defineAppConfig({
     },
     {
       key: 2,
-      name: '首页广告弹窗',
+      name: '开屏广告-弹窗',
       quickFind: true,
       matchTime: 10000,
       actionMaximum: 1,

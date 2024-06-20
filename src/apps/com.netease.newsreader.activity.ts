@@ -34,13 +34,13 @@ export default defineAppConfig({
     {
       enable: false,
       key: 4,
-      name: '首页局部广告-信息流广告',
+      name: '局部广告-首页局部广告-信息流广告',
       desc: '点击广告卡片x关闭按钮-关闭反馈理由弹窗',
       activityIds: 'com.netease.nr.phone.main.MainActivity',
       rules: [
         {
           preKeys: [1],
-          name: '首页局部广告-信息流广告-反馈理由',
+          name: '局部广告-首页局部广告-信息流广告-反馈理由',
           matches: '[text="不感兴趣"]',
           snapshotUrls: 'https://i.gkd.li/import/12639752',
         },

@@ -74,7 +74,7 @@ export default defineAppConfig({
     },
     {
       key: 7,
-      name: '请求开启通知权限弹窗',
+      name: '权限提示-请求开启通知权限弹窗',
       activityIds: 'com.baidu.youavideo.app.ui.HomeActivity',
       quickFind: true,
       rules:

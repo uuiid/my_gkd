@@ -15,7 +15,7 @@ export default defineAppConfig({
     },
     {
       key: 2,
-      name: '首页广告弹窗',
+      name: '开屏广告-弹窗',
       rules: [
         {
           key: 0,
@@ -32,7 +32,7 @@ export default defineAppConfig({
     },
     {
       key: 3,
-      name: '首页局部广告-信息流广告',
+      name: '局部广告-首页局部广告-信息流广告',
       activityIds:
         'com.gotokeep.keep.refactor.business.main.activity.MainActivity',
       rules:
@@ -41,7 +41,7 @@ export default defineAppConfig({
     },
     {
       key: 4,
-      name: '运动购页面-广告弹窗',
+      name: '局部广告-广告弹窗',
       rules: [
         {
           key: 0,
@@ -63,7 +63,7 @@ export default defineAppConfig({
     },
     {
       key: 5,
-      name: '请求开启通知权限弹窗',
+      name: '权限提示-请求开启通知权限弹窗',
       actionMaximum: 1,
       resetMatch: 'app',
       quickFind: true,

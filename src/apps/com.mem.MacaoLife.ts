@@ -14,7 +14,7 @@ export default defineAppConfig({
     },
     {
       key: 2,
-      name: '浮窗廣告',
+      name: '局部广告-浮窗廣告',
       quickFind: true,
       activityIds: 'com.mem.life.ui.home.HomeActivity',
       rules: '[id="com.mem.MacaoLife:id/close"]',

@@ -24,7 +24,7 @@ export default defineAppConfig({
     },
     {
       key: 2,
-      name: '首页广告弹窗',
+      name: '开屏广告-弹窗',
       activityIds:
         'com.yitong.mbank.psbc.module.home.view.activity.MainActivity',
       rules:

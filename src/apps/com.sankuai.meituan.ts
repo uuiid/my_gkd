@@ -131,7 +131,7 @@ export default defineAppConfig({
     {
       enable: false,
       key: 8,
-      name: '请求开启通知权限弹窗',
+      name: '权限提示-请求开启通知权限弹窗',
       desc: '点击跳过',
       quickFind: true,
       actionMaximum: 1,

@@ -15,7 +15,7 @@ export default defineAppConfig({
     },
     {
       key: 5,
-      name: '请求开启通知权限弹窗',
+      name: '权限提示-请求开启通知权限弹窗',
       quickFind: true,
       actionMaximum: 1,
       resetMatch: 'app',

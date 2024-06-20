@@ -24,7 +24,7 @@ export default defineAppConfig({
     {
       enable: true,
       key: 10,
-      name: '请求开启通知权限弹窗',
+      name: '权限提示-请求开启通知权限弹窗',
       desc: '自动点击x按钮',
       activityIds:
         'com.boohee.one.app.account.ui.activity.MsgCategoryActivityV2',

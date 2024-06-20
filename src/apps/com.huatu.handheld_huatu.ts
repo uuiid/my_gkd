@@ -6,7 +6,7 @@ export default defineAppConfig({
   groups: [
     {
       key: 1,
-      name: '首页广告弹窗',
+      name: '开屏广告-弹窗',
       activityIds: [
         'com.huatu.handheld_huatu.view.MainPopDialog',
         'com.huatu.handheld_huatu.business.main.MainTabActivity',
