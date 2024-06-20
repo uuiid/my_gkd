@@ -49,6 +49,7 @@
     "json5": "2.2.3",
     "lint-staged": "15.2.2",
     "lodash": "^4.17.21",
+    "picocolors": "^1.0.1",
     "pinyin-pro": "^3.22.2",
     "prettier": "3.2.5",
     "simple-git-hooks": "2.11.1",
