@@ -24,7 +24,7 @@ export default defineAppConfig({
           snapshotUrls: 'https://i.gkd.li/import/13626049',
         },
         {
-          name: '腾讯SDK',
+          name: '腾讯SDK-2',
           matches:
             '@View <3 FrameLayout[childCount=4] <2 FrameLayout[childCount=2] < [vid="fl_splash_container"]',
           snapshotUrls: 'https://i.gkd.li/import/13885906',
