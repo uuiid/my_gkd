@@ -147,7 +147,7 @@ export default defineGkdApp({
     },
     {
       name: '功能类-福利广告-2',
-      key: 14,
+      key: 15,
       desc: '福利广告15秒后跳过, 或者在广告不足15 时, 结束广告',
       activityIds: 'com.qq.e.tg.RewardvideoPortraitADActivity',
       quickFind: true,
