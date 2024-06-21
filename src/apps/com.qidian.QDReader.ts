@@ -139,15 +139,10 @@ export default defineGkdApp({
           key: 1,
           activityIds: 'com.qq.e.tg.RewardvideoPortraitADActivity',
           quickFind: true,
-          matches:
+          matches: [
             'FrameLayout[id="android:id/content"] >3 @android.widget.ImageView[id =null && text=null && top < 150 && left < 80]',
-        },
-        {
-          key: 2,
-          activityIds: 'com.qq.e.tg.RewardvideoPortraitADActivity',
-          quickFind: true,
-          matches:
             '[text="已观看视频15秒，可获得奖励"] - [id="com.qidian.QDReader:string/c"]',
+          ],
         },
       ],
     },
