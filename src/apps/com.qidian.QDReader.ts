@@ -155,8 +155,7 @@ export default defineGkdApp({
       actionCd: 100,
       rules: [
         {
-          matches:
-            '[text="已观看视频15秒，可获得奖励"] - [id="com.qidian.QDReader:string/c"]',
+          matches: '[text="已观看视频15秒，可获得奖励"] - [text="跳过广告"]',
         },
       ],
     },
