@@ -153,6 +153,7 @@ export default defineGkdApp({
       quickFind: true,
       resetMatch: 'activity',
       actionCd: 100,
+      matchTime: 16000,
       rules: [
         {
           matches: '[text="已观看视频15秒，可获得奖励"] - [text="跳过广告"]',
