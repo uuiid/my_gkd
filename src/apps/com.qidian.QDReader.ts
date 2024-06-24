@@ -150,9 +150,6 @@ export default defineGkdApp({
       key: 15,
       desc: '福利广告15秒后跳过, 或者在广告不足15 时, 结束广告',
       activityIds: 'com.qq.e.tg.RewardvideoPortraitADActivity',
-      quickFind: true,
-      resetMatch: 'activity',
-      actionCd: 100,
       matchTime: 16000,
       rules: [
         {
