@@ -133,7 +133,7 @@ export default defineGkdApp({
     {
       name: '功能类-福利广告',
       key: 14,
-      desc: '福利广告15秒后跳过, 或者在广告不足15 时, 结束广告',
+      desc: '广告不足15 时, 结束广告',
       activityIds: 'com.qq.e.tg.RewardvideoPortraitADActivity',
       quickFind: true,
       resetMatch: 'activity',
@@ -148,9 +148,13 @@ export default defineGkdApp({
     {
       name: '功能类-福利广告-2',
       key: 15,
-      desc: '福利广告15秒后跳过, 或者在广告不足15 时, 结束广告',
+      desc: '福利广告15秒后跳过, 结束广告',
       activityIds: 'com.qq.e.tg.RewardvideoPortraitADActivity',
-      matchTime: 16000,
+      quickFind: true,
+      resetMatch: 'activity',
+      actionCd: 100,
+      actionMaximum: 10000,
+      matchTime: 20000,
       rules: [
         {
           matches: '[text="已观看视频15秒，可获得奖励"] - [text="跳过广告"]',
