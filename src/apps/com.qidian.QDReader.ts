@@ -157,7 +157,7 @@ export default defineGkdApp({
       matchTime: 20000,
       rules: [
         {
-          matches: '[text="已观看视频15秒，可获得奖励"] - [text="跳过广告"]',
+          matches: '[text="已观看视频15秒，可获得奖励"] - @[text="跳过广告"]',
         },
       ],
     },
