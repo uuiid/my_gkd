@@ -135,9 +135,8 @@ export default defineGkdApp({
       key: 14,
       desc: '广告不足15 时, 结束广告',
       activityIds: 'com.qq.e.tg.RewardvideoPortraitADActivity',
-      quickFind: true,
+      quickFind: false,
       resetMatch: 'activity',
-      actionCd: 100,
       rules: [
         {
           matches:
@@ -150,10 +149,8 @@ export default defineGkdApp({
       key: 15,
       desc: '福利广告15秒后跳过, 结束广告.',
       activityIds: 'com.qq.e.tg.RewardvideoPortraitADActivity',
-      quickFind: true,
+      quickFind: false,
       resetMatch: 'activity',
-      actionCd: 100,
-      actionMaximum: 10000,
       matchTime: 20000,
       rules: [
         {
