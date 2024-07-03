@@ -137,20 +137,14 @@ export default defineGkdApp({
       activityIds: 'com.qq.e.tg.RewardvideoPortraitADActivity',
       rules: [
         {
+          key: 3,
           matches:
             'FrameLayout[id="android:id/content"] >3 @android.widget.ImageView[id =null && text=null && top < 150 && left < 80]',
         },
-      ],
-    },
-    {
-      name: '功能类-福利广告-2',
-      key: 15,
-      desc: '福利广告15秒后跳过, 结束广告.',
-      activityIds: 'com.qq.e.tg.RewardvideoPortraitADActivity',
-      matchTime: 20000,
-      rules: [
         {
+          key: 4,
           matches: '[text~="已观看视频.*"] - @[text="跳过广告"]',
+          matchTime: 30000,
         },
       ],
     },
