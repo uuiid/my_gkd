@@ -146,6 +146,12 @@ export default defineGkdApp({
           matches: '[text~="已观看视频.*"] - @[text="跳过广告"]',
           matchTime: 30000,
         },
+        {
+          key: 5,
+          matches: '@[text="跳过广告"]',
+          matchTime: 30000,
+          actionDelay: 16000,
+        },
       ],
     },
   ],
