@@ -14,23 +14,6 @@ export default defineGkdApp({
       snapshotUrls: 'https://i.gkd.li/import/12706097',
     },
     {
-      key: 2,
-      name: '开屏广告-弹窗',
-      rules: [
-        {
-          key: 0,
-          activityIds:
-            'com.gotokeep.keep.refactor.business.main.activity.MainActivity',
-          matches:
-            '[id="com.gotokeep.keep:id/layoutLottie"] +(1,2) [id="com.gotokeep.keep:id/imgCloseHomePageDialog"]',
-          snapshotUrls: [
-            'https://i.gkd.li/import/12706102',
-            'https://i.gkd.li/import/13761641',
-          ],
-        },
-      ],
-    },
-    {
       key: 3,
       name: '局部广告-首页局部广告-信息流广告',
       activityIds:
