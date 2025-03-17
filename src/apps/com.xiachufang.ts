@@ -38,8 +38,7 @@ export default defineGkdApp({
           name: '菜谱底部卡片广告-3',
           activityIds: 'com.xiachufang.activity.recipe.RecipeDetailActivity',
           quickFind: true,
-          matches:
-            '@ImageView[width=32] <<n [vid="fl_container"]',
+          matches: '@ImageView[width=32] <<n [vid="fl_container"]',
           snapshotUrls: 'https://i.gkd.li/import/13484117',
         },
       ],
