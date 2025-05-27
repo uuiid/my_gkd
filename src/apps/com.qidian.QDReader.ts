@@ -112,7 +112,7 @@ export default defineGkdApp({
       actionMaximum: 1,
       resetMatch: 'activity',
       matchTime: 1000,
-      rules: 'View[desc="我知道了"]',
+      rules: '@TextView[text="知道了"]',
       snapshotUrls: 'https://i.gkd.li/import/13606901',
     },
     {

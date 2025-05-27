@@ -34,12 +34,11 @@ export default defineGkdApp({
           snapshotUrls: 'https://i.gkd.li/import/13454534',
         },
         {
-          key: 4,
+          key: 5,
           name: '菜谱底部卡片广告-3',
           activityIds: 'com.xiachufang.activity.recipe.RecipeDetailActivity',
           quickFind: true,
-          matches:
-            '[id="com.xiachufang:id/fl_container"] >6 [name="android.widget.ImageView" && width=32]',
+          matches: '@ImageView[width=32] <<n [vid="fl_container"]',
           snapshotUrls: 'https://i.gkd.li/import/13484117',
         },
       ],
