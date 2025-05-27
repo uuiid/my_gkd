@@ -149,5 +149,16 @@ export default defineGkdApp({
         },
       ],
     },
+    {
+      name: '功能类-看视频',
+      key: 15,
+      desc: '看视频领福利',
+      rules: [
+        {
+          activityIds: 'com.qidian.QDReader.ui.activity.QDBrowserActivity',
+          matches: '@[text="看视频"]',
+        },
+      ],
+    },
   ],
 });
