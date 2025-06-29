@@ -33,7 +33,8 @@ export default defineGkdApp({
         },
         {
           key: 5,
-          activityIds: 'com.bytedance.sdk.openadsdk.stub.activity.Stub_Standard_Portrait_Activity',
+          activityIds:
+            'com.bytedance.sdk.openadsdk.stub.activity.Stub_Standard_Portrait_Activity',
           matches: '[text="奖励已领取"] + @[text="| 跳过"]',
         },
       ],
