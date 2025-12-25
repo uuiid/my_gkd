@@ -34,13 +34,14 @@ export default defineGkdApp({
       ],
     },
     {
-      name: '功能类-看视频',
-      key: 15,
-      desc: '看视频领福利',
+      key: 16,
+      name: '起点广告关闭',
+      desc: '起点广告关闭',
       rules: [
         {
-          activityIds: 'com.qidian.QDReader.ui.activity.QDBrowserActivity',
-          matches: '@[text="看视频"]',
+          activityIds: 'com.qq.e.tg.RewardvideoPortraitADActivity',
+          matches:
+            '@ViewGroup[depth=11 && left>971 && width=height] <<7 ViewGroup[childCount<6 && depth=8]',
         },
       ],
     },

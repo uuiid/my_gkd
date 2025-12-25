@@ -6,7 +6,7 @@ import globalGroups from './globalGroups';
 export default defineGkdSubscription({
   id: 74586,
   name: 'uuiid-的gdk规则',
-  version: 30,
+  version: 31,
   author: 'uuiid',
   checkUpdateUrl: './gkd.version.json5',
   supportUri: 'https://github.com/gkd-kit/subscription-template',
