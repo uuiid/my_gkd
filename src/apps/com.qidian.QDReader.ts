@@ -31,6 +31,12 @@ export default defineGkdApp({
           matches: '[text~="已观看视频.*"] - @[text="跳过广告"]',
           matchRoot: true,
         },
+        {
+          key: 5,
+          activityIds:
+            'com.bytedance.sdk.openadsdk.stub.activity.Stub_Standard_Portrait_Activity',
+          matches: '[text="奖励已领取"] + @[text="| 跳过"]',
+        },
       ],
     },
     {
