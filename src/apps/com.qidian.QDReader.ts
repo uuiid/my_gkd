@@ -47,7 +47,7 @@ export default defineGkdApp({
         {
           activityIds: 'com.qq.e.tg.RewardvideoPortraitADActivity',
           matches:
-            '@ViewGroup[depth=11 && left>971 && width=height] <<7 ViewGroup[childCount<6 && depth=8]',
+            'ViewGroup[childCount<6 && depth=8] >3 @ViewGroup[depth=11 && left>971 && width=height]',
         },
       ],
     },
