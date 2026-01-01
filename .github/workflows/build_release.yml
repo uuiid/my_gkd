@@ -3,7 +3,7 @@ name: build_release
 on: workflow_dispatch
 
 permissions:
-  id-token: write-all  # Required for OIDC
+  id-token: write # Required for OIDC
   contents: write
 
 
